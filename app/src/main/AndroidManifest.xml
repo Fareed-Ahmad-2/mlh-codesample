@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Gatesbook"
+        tools:targetApi="31">
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713"/>
+
+        <activity
+            android:name=".MainActivity"
+            android:theme="@style/Theme.App.SplashScreen"
+            android:exported="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".lab"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".menu"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".pdfViewer"
+            android:exported="false"
+            android:hardwareAccelerated="true">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CseSem2"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CseSem1"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".DsSem2"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".DsSem1"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".units"
+            android:exported="false">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
+        <activity
+            android:name=".CyberSem8"
+            android:exported="false" />
+        <activity
+            android:name=".CyberSem7"
+            android:exported="false" />
+        <activity
+            android:name=".CyberSem6"
+            android:exported="false" />
+        <activity
+            android:name=".CyberSem5"
+            android:exported="false" />
+        <activity
+            android:name=".CyberSem4"
+            android:exported="false" />
+        <activity
+            android:name=".CyberSem3"
+            android:exported="false" />
+        <activity
+            android:name=".CyberSem2"
+            android:exported="false" />
+        <activity
+            android:name=".CyberSem1"
+            android:exported="false" />
+        <activity
+            android:name=".DsSem8"
+            android:exported="false" />
+        <activity
+            android:name=".DsSem7"
+            android:exported="false" />
+        <activity
+            android:name=".DsSem6"
+            android:exported="false" />
+        <activity
+            android:name=".DsSem5"
+            android:exported="false" />
+        <activity
+            android:name=".DsSem4"
+            android:exported="false" />
+        <activity
+            android:name=".DsSem3"
+            android:exported="false" />
+        <activity
+            android:name=".MechSem8"
+            android:exported="false" />
+        <activity
+            android:name=".MechSem7"
+            android:exported="false" />
+        <activity
+            android:name=".MechSem6"
+            android:exported="false" />
+        <activity
+            android:name=".MechSem5"
+            android:exported="false" />
+        <activity
+            android:name=".MechSem4"
+            android:exported="false" />
+        <activity
+            android:name=".MechSem3"
+            android:exported="false" />
+        <activity
+            android:name=".MechSem2"
+            android:exported="false" />
+        <activity
+            android:name=".MechSem1"
+            android:exported="false" />
+        <activity
+            android:name=".CivilSem8"
+            android:exported="false" />
+        <activity
+            android:name=".CivilSem7"
+            android:exported="false" />
+        <activity
+            android:name=".CivilSem6"
+            android:exported="false" />
+        <activity
+            android:name=".CivilSem5"
+            android:exported="false" />
+        <activity
+            android:name=".CivilSem4"
+            android:exported="false" />
+        <activity
+            android:name=".CivilSem3"
+            android:exported="false" />
+        <activity
+            android:name=".CivilSem2"
+            android:exported="false" />
+        <activity
+            android:name=".CivilSem1"
+            android:exported="false" />
+        <activity
+            android:name=".EceSem8"
+            android:exported="false" />
+        <activity
+            android:name=".EceSem7"
+            android:exported="false" />
+        <activity
+            android:name=".EceSem6"
+            android:exported="false" />
+        <activity
+            android:name=".EceSem5"
+            android:exported="false" />
+        <activity
+            android:name=".EceSem4"
+            android:exported="false" />
+        <activity
+            android:name=".EceSem3"
+            android:exported="false" />
+        <activity
+            android:name=".EceSem2"
+            android:exported="false" />
+        <activity
+            android:name=".EceSem1"
+            android:exported="false" />
+        <activity
+            android:name=".EeeSem8"
+            android:exported="false" />
+        <activity
+            android:name=".EeeSem7"
+            android:exported="false" />
+        <activity
+            android:name=".EeeSem6"
+            android:exported="false" />
+        <activity
+            android:name=".EeeSem5"
+            android:exported="false" />
+        <activity
+            android:name=".EeeSem4"
+            android:exported="false" />
+        <activity
+            android:name=".EeeSem3"
+            android:exported="false" />
+        <activity
+            android:name=".EeeSem2"
+            android:exported="false" />
+        <activity
+            android:name=".EeeSem1"
+            android:exported="false" />
+        <activity
+            android:name=".CseSem8"
+            android:exported="false" />
+        <activity
+            android:name=".CseSem7"
+            android:exported="false" />
+        <activity
+            android:name=".CseSem6"
+            android:exported="false" />
+        <activity
+            android:name=".CseSem5"
+            android:exported="false" />
+        <activity
+            android:name=".CseSem4"
+            android:exported="false" />
+        <activity
+            android:name=".CseSem3"
+            android:exported="false" />
+        <activity
+            android:name=".AiSem8"
+            android:exported="false" />
+        <activity
+            android:name=".AiSem7"
+            android:exported="false" />
+        <activity
+            android:name=".AiSem6"
+            android:exported="false" />
+        <activity
+            android:name=".AiSem5"
+            android:exported="false" />
+        <activity
+            android:name=".AiSem4"
+            android:exported="false" />
+        <activity
+            android:name=".AiSem3"
+            android:exported="false" />
+        <activity
+            android:name=".AiSem1"
+            android:exported="false" />
+        <activity
+            android:name=".AiSem2"
+            android:exported="false" />
+        <activity
+            android:name=".semester"
+            android:exported="false" />
+    </application>
+
+</manifest>
